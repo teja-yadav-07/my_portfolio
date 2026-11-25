@@ -4,7 +4,7 @@ import { Navigation } from './components/Navigation';
 import { Hero3DCanvas } from './components/Hero3DCanvas';
 import { PerformanceHUD } from './components/PerformanceHUD';
 import { AnimationLabs } from './components/AnimationLabs';
-import { BenchmarkReferences } from './components/BenchmarkReferences';
+import { MotionArchitectures } from './components/MotionArchitectures';
 import { FeaturedWorks } from './components/FeaturedWorks';
 import { InteractivePlayground } from './components/InteractivePlayground';
 import { AboutAndAccolades } from './components/AboutAndAccolades';
@@ -59,7 +59,7 @@ export const App: React.FC = () => {
             <span className="w-2 h-2 rounded-full bg-cyan-400 animate-ping" />
             <span className="font-bold">TEJASWINI PADYALA</span>
             <span className="text-slate-500">|</span>
-            <span className="text-slate-400">AWARD-WINNING MOTION PORTFOLIO</span>
+            <span className="text-slate-400">CREATIVE TECHNOLOGIST & MOTION ARCHITECT</span>
           </div>
 
           {/* Massive Display Title */}
@@ -71,8 +71,8 @@ export const App: React.FC = () => {
           </h1>
 
           <p className="text-slate-300 text-sm sm:text-lg max-w-2xl leading-relaxed mb-10 font-sans">
-            Pushing the boundaries of real-time 3D WebGL, procedural GLSL shaders, kinetic typography,
-            and acoustic haptics. Inspired by the 10 peak design benchmark studios worldwide.
+            High-performance real-time 3D WebGL, procedural GLSL shaders, kinetic typography,
+            and synthesized acoustic haptics. Engineered for award-winning digital experiences.
           </p>
 
           {/* Action Triggers */}
@@ -97,7 +97,7 @@ export const App: React.FC = () => {
               onMouseEnter={() => sound.playHover()}
               className="px-8 py-4 rounded-full border border-white/20 bg-black/40 hover:bg-white/10 text-white font-bold text-xs font-mono tracking-wider uppercase backdrop-blur-md hover:border-cyan-400/50 transition-all flex items-center gap-2 cursor-pointer"
             >
-              <span>Design DNA (10 Sites)</span>
+              <span>Motion Science</span>
             </button>
           </div>
         </div>
@@ -110,7 +110,7 @@ export const App: React.FC = () => {
           }}
           className="absolute bottom-8 z-10 text-slate-400 hover:text-cyan-400 transition-colors flex flex-col items-center gap-2 text-xs font-mono cursor-pointer"
         >
-          <span>SCROLL TO FLEX</span>
+          <span>SCROLL TO EXPLORE</span>
           <ArrowDown className="w-4 h-4 animate-bounce" />
         </button>
       </section>
@@ -118,8 +118,8 @@ export const App: React.FC = () => {
       {/* 10 Dedicated Interactive Labs */}
       <AnimationLabs />
 
-      {/* 10 Referenced Peak Design Studios */}
-      <BenchmarkReferences />
+      {/* 6 Core Motion Science Architectures */}
+      <MotionArchitectures />
 
       {/* Flagship Works Showcase */}
       <FeaturedWorks />
@@ -137,4 +137,3 @@ export const App: React.FC = () => {
 };
 
 export default App;
-

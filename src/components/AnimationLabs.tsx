@@ -20,8 +20,8 @@ export const AnimationLabs: React.FC = () => {
   const labs = [
     {
       id: 0,
-      title: 'Lusion Fluid Vortex',
-      studio: 'Inspired by Lusion.co (Site of the Year)',
+      title: 'Centrifugal Particle Vortex',
+      engine: 'Autonomous Vector-Field Fluid Simulation',
       badge: 'Fluid Dynamics & Particles',
       description:
         'Real-time mouse-repelling particle storm with custom turbulence noise, dynamic drag velocity, and chromatic persistence trail.',
@@ -29,8 +29,8 @@ export const AnimationLabs: React.FC = () => {
     },
     {
       id: 1,
-      title: 'Active Theory Cyber Matrix',
-      studio: 'Inspired by ActiveTheory.net (100+ Awwwards)',
+      title: 'Cybernetic Chromatic Pulse',
+      engine: 'Real-Time Chromatic GLSL Displacement',
       badge: 'Chromatic Aberration & Audio Reactive',
       description:
         'Volumetric cyber grid with real-time RGB split displacement, dynamic glitch pulses, and synthesized audio frequencies.',
@@ -38,8 +38,8 @@ export const AnimationLabs: React.FC = () => {
     },
     {
       id: 2,
-      title: 'Basement Kinetic Typography',
-      studio: 'Inspired by Basement.studio (Awwwards Agency)',
+      title: 'Momentum Kinetic Typography',
+      engine: 'Velocity-Driven Kinetic Typography Matrix',
       badge: 'Velocity Skew & Split Flip',
       description:
         'High-fashion brutalist typography with mouse-velocity skewing, 3D character roll-over, and magnetic rebound springs.',
@@ -47,8 +47,8 @@ export const AnimationLabs: React.FC = () => {
     },
     {
       id: 3,
-      title: 'Locomotive 3.5D Gyro Parallax',
-      studio: 'Inspired by Locomotive.ca (Locomotive Scroll)',
+      title: 'Multi-Planar Spatial Parallax',
+      engine: 'Decoupled Multi-Plane Gyroscopic Parallax',
       badge: 'Multi-Plane Perspective Tilt',
       description:
         'Layered spatial card stack with gyroscopic mouse coordinates, dynamic specular sheen angle, and decoupled z-axis planes.',
@@ -56,8 +56,8 @@ export const AnimationLabs: React.FC = () => {
     },
     {
       id: 4,
-      title: 'Apple Vision Pro Spatial Glass',
-      studio: 'Inspired by Apple Vision Pro Keynote',
+      title: 'Spatial Optical Glass Refraction',
+      engine: 'Incident Light Fresnel Dispersion & Acrylic Blur',
       badge: 'Optical Refraction & Specular Light',
       description:
         'Hyper-realistic spatial glass with dynamic light angle tracking, acrylic blur, chromatic dispersion rims, and tactile elevation.',
@@ -65,8 +65,8 @@ export const AnimationLabs: React.FC = () => {
     },
     {
       id: 5,
-      title: 'Linear Laser Beam Illuminator',
-      studio: 'Inspired by Linear.app (SaaS Benchmark)',
+      title: 'Sub-Pixel Laser Illuminator',
+      engine: 'Sub-Pixel Circuit Tracing & Radial Flashlight Mask',
       badge: 'Cursor Flashlight & Circuit Grid',
       description:
         'Interactive cursor ray tracking across a dark micro-grid, illuminating hidden electrical traces with metallic edge highlights.',
@@ -74,8 +74,8 @@ export const AnimationLabs: React.FC = () => {
     },
     {
       id: 6,
-      title: 'Stripe Organic Gradient Silk',
-      studio: 'Inspired by Stripe.com / Stripe Press',
+      title: 'Harmonic Gradient Silk',
+      engine: 'Continuous Sine-Cosine Wave Interference',
       badge: 'Procedural Wave Shader',
       description:
         'Continuous fluid mesh undulation with mathematical Sine/Cosine interference, mouse velocity friction, and iridescent color palettes.',
@@ -83,8 +83,8 @@ export const AnimationLabs: React.FC = () => {
     },
     {
       id: 7,
-      title: 'Bruno Simon Rigid Physics Toy',
-      studio: 'Inspired by Bruno-simon.com (Site of the Year)',
+      title: 'Verlet Rigid Body Physics',
+      engine: 'Verlet Particle Dynamics with Collision Audio Chimes',
       badge: 'Interactive Rigid Body Physics',
       description:
         'Throw, bump, and juggle floating physics elements with gravity restitution, mass inertia, and procedural collision chimes.',
@@ -92,8 +92,8 @@ export const AnimationLabs: React.FC = () => {
     },
     {
       id: 8,
-      title: 'Dogstudio Organic 3D Deformer',
-      studio: 'Inspired by Dogstudio.co',
+      title: 'Simplex Organic Mesh Deformer',
+      engine: 'Perlin Surface Ripple & Viscous Wave Tensor',
       badge: 'Perlin Surface Ripple & Deformation',
       description:
         'Interactive organic blob mesh that deforms under cursor pressure, generating radial waves that bounce off boundaries.',
@@ -101,8 +101,8 @@ export const AnimationLabs: React.FC = () => {
     },
     {
       id: 9,
-      title: 'Cuberto Elastic Jelly Dock',
-      studio: 'Inspired by Cuberto.com (Motion Masters)',
+      title: 'Elastic Jelly Tensor Dock',
+      engine: 'Non-Linear Spring Restitution & Liquid Morphing',
       badge: 'Elastic Spring & Liquid Morphing',
       description:
         'Gelatinous magnetic buttons that stretch along pull vectors with rubber-band spring dampening and liquid blob merging.',
@@ -118,14 +118,14 @@ export const AnimationLabs: React.FC = () => {
       <div className="text-center max-w-3xl mx-auto mb-16">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-cyan-500/30 bg-cyan-950/40 text-cyan-300 text-xs font-mono mb-4">
           <Sparkles className="w-3.5 h-3.5 animate-spin-slow text-cyan-400" />
-          <span>AWARD-WINNING INTERACTIVE LABS</span>
+          <span>ORIGINAL INTERACTIVE EXPERIMENTS</span>
         </div>
         <h2 className="text-3xl sm:text-5xl font-black font-display tracking-tight text-white mb-6">
-          10 Peak Animation <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-violet-400 to-pink-400">Flex Masterclasses</span>
+          10 Peak Animation <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-violet-400 to-pink-400">Masterclasses</span>
         </h2>
         <p className="text-slate-400 text-sm sm:text-base leading-relaxed">
-          Engineered from scratch to push the boundaries of modern creative web technology. Each lab implements
-          signature paradigms from the world&apos;s 10 most decorated creative design studios.
+          Engineered from scratch by Tejaswini Padyala. Each lab represents a distinct algorithmic animation paradigm
+          combining GLSL shaders, mathematical physics, kinetic typography, and procedural audio.
         </p>
       </div>
 
@@ -160,7 +160,7 @@ export const AnimationLabs: React.FC = () => {
             <div className="flex items-center gap-2 mb-1.5">
               <span className="text-xs font-mono text-cyan-400 font-bold">LAB 0{labs[activeLab].id + 1}</span>
               <span className="text-slate-500">•</span>
-              <span className="text-xs font-medium text-pink-400">{labs[activeLab].studio}</span>
+              <span className="text-xs font-medium text-pink-400">{labs[activeLab].engine}</span>
             </div>
             <h3 className="text-2xl sm:text-3xl font-extrabold text-white font-display">
               {labs[activeLab].title}
@@ -199,6 +199,7 @@ export const AnimationLabs: React.FC = () => {
   );
 };
 
+/* LAB 01 */
 const LabLusionVortex: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const mouseRef = useRef({ x: 0, y: 0, px: 0, py: 0 });
@@ -304,6 +305,7 @@ const LabLusionVortex: React.FC = () => {
   );
 };
 
+/* LAB 02 */
 const LabActiveTheoryGlitch: React.FC = () => {
   const [glitchActive, setGlitchActive] = useState(false);
   const [sliceCount, setSliceCount] = useState(6);
@@ -370,6 +372,7 @@ const LabActiveTheoryGlitch: React.FC = () => {
   );
 };
 
+/* LAB 03 */
 const LabBasementTypography: React.FC = () => {
   const [skew, setSkew] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -416,6 +419,7 @@ const LabBasementTypography: React.FC = () => {
   );
 };
 
+/* LAB 04 */
 const LabLocomotiveParallax: React.FC = () => {
   const [rot, setRot] = useState({ x: 0, y: 0 });
   const [sheen, setSheen] = useState({ x: 50, y: 50 });
@@ -461,7 +465,7 @@ const LabLocomotiveParallax: React.FC = () => {
 
         <div style={{ transform: 'translateZ(40px)' }} className="transition-transform">
           <div className="flex items-center justify-between text-xs font-mono text-cyan-300 mb-4">
-            <span>LOCOMOTIVE 3.5D</span>
+            <span>SPATIAL 3.5D ENGINE</span>
             <span className="w-2 h-2 rounded-full bg-cyan-400 animate-ping" />
           </div>
           <h4 className="text-2xl font-black text-white font-display">
@@ -488,6 +492,7 @@ const LabLocomotiveParallax: React.FC = () => {
   );
 };
 
+/* LAB 05 */
 const LabAppleVisionSpatial: React.FC = () => {
   const [lightPos, setLightPos] = useState({ x: 50, y: 50 });
 
@@ -515,7 +520,7 @@ const LabAppleVisionSpatial: React.FC = () => {
         <div className="flex items-center gap-2 mb-3">
           <div className="w-3 h-3 rounded-full bg-cyan-400" />
           <span className="text-[11px] font-mono text-cyan-300 uppercase tracking-wider">
-            VisionOS Acrylic Shader
+            Spatial Acrylic Refraction Shader
           </span>
         </div>
         <h4 className="text-xl font-extrabold text-white mb-2">
@@ -536,6 +541,7 @@ const LabAppleVisionSpatial: React.FC = () => {
   );
 };
 
+/* LAB 06 */
 const LabLinearIlluminator: React.FC = () => {
   const [spot, setSpot] = useState({ x: -200, y: -200 });
 
@@ -588,6 +594,7 @@ const LabLinearIlluminator: React.FC = () => {
   );
 };
 
+/* LAB 07 */
 const LabStripeGradient: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -648,6 +655,7 @@ const LabStripeGradient: React.FC = () => {
   );
 };
 
+/* LAB 08 */
 const LabBrunoSimonPhysics: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -783,6 +791,7 @@ const LabBrunoSimonPhysics: React.FC = () => {
   );
 };
 
+/* LAB 09 */
 const LabDogstudioDeformer: React.FC = () => {
   const [offset, setOffset] = useState({ x: 0, y: 0 });
 
@@ -814,6 +823,7 @@ const LabDogstudioDeformer: React.FC = () => {
   );
 };
 
+/* LAB 10 */
 const LabCubertoElastic: React.FC = () => {
   const [pull, setPull] = useState({ x: 0, y: 0 });
   const [isPulling, setIsPulling] = useState(false);

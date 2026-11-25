@@ -65,7 +65,7 @@ export const Navigation: React.FC<NavigationProps> = ({
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping inline-block" />
             </div>
             <div className="text-[10px] text-slate-400 font-mono tracking-wider">
-              Creative Technologist & Motion Dev
+              Creative Technologist & Motion Architect
             </div>
           </div>
         </button>
@@ -73,7 +73,7 @@ export const Navigation: React.FC<NavigationProps> = ({
         <div className="hidden md:flex items-center gap-1 lg:gap-2">
           {[
             { id: 'labs', label: '10 Animation Labs', icon: Sparkles },
-            { id: 'benchmarks', label: 'Design DNA (10 Sites)', icon: Code2 },
+            { id: 'benchmarks', label: 'Motion Science', icon: Code2 },
             { id: 'works', label: 'Master Works', icon: Zap },
             { id: 'playground', label: 'Physics Arena', icon: Sparkles },
             { id: 'about', label: 'Bio & Accolades', icon: null },
@@ -139,7 +139,7 @@ export const Navigation: React.FC<NavigationProps> = ({
               onNavigate('about');
             }}
             onMouseEnter={() => sound.playHover()}
-            className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-bold text-slate-900 bg-gradient-to-r from-cyan-400 to-emerald-400 hover:from-cyan-300 hover:to-emerald-300 rounded-full shadow-[0_0_18px_rgba(0,240,255,0.4)] transition-all hover:scale-105 active:scale-95 cursor-pointer"
+            className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-bold text-slate-950 bg-gradient-to-r from-cyan-400 to-emerald-400 hover:from-cyan-300 hover:to-emerald-300 rounded-full shadow-[0_0_18px_rgba(0,240,255,0.4)] transition-all hover:scale-105 active:scale-95 cursor-pointer"
           >
             <span>Let&apos;s Build</span>
             <span className="text-[10px]">↗</span>
